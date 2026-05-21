@@ -1,0 +1,7 @@
+* Actualización para Android 16
+* Gestión de la visualización de borde a borde (Android 15+)
+* Nuevo botón en el mapa para ver todas las bicicletas a la vez
+* Aumento del tamaño del marcador seleccionado en el mapa
+* Corrección de la fecha de actualización de la estación al reanudar la aplicación
+* Actualización forzada de datos cuando se modifica la red de bicicletas
+* Actualización de traducciones
