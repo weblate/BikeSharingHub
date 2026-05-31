@@ -11,7 +11,7 @@
     <string name="action_search">搜尋</string>
     <string name="title_activity_stations_list">單車站</string>
     <string name="title_activity_station">單車站</string>
-    <string name="title_activity_networks_list">選擇一個網絡</string>
+    <string name="title_activity_networks_list">網路選擇</string>
     <string name="title_activity_map">地圖</string>
     <string name="title_activity_settings">設定</string>
     <string name="welcome_dialog_message">請先從列表選擇一個單車網絡。
@@ -50,7 +50,7 @@
         <item quantity="other">%d天前</item>
     </plurals>
     <string name="pref_header_general">一般</string>
-    <string name="pref_title_bike_networks_list">選擇一個網絡</string>
+    <string name="pref_title_bike_networks_list">網路選擇</string>
     <string name="pref_title_license">授權條款</string>
     <string name="pref_title_about">關於</string>
     <string name="pref_title_source_code">原始碼</string>
@@ -65,7 +65,7 @@
     <string name="pref_title_advanced">進階</string>
     <string name="pref_title_api_url">API URL</string>
     <string name="pref_title_default_tab">預設分頁</string>
-    <string name="loc_perm_forbidden"/>
+    <string name="loc_perm_forbidden">存取位置被拒絕。\n你可以選擇其他預設分頁啟動。\n或者，請在你的系統設定中授予權限。</string>
     <string name="location_not_granted">獲取位置被拒絕</string>
     <string name="free_ebikes">電動單車: </string>
     <string name="pref_title_fork"/>
@@ -73,4 +73,16 @@
     <string name="location_outdated">您的位置已過時%1$s 分鐘</string>
     <string name="map_cache_cleaning_started">等待直到地圖快取清理完成</string>
     <string name="map_cache_cleaning_done">地圖快取清理完成</string>
+    <string name="ssl_error">裝置不信任 SSL 憑證</string>
+    <plurals name="updated_secondes_ago">
+        <item quantity="other">%d 秒前</item>
+    </plurals>
+    <string name="pref_title_bike_networks_list_summary_none">沒有</string>
+    <string name="pref_title_bike_networks_list_summary_multiple_selection">%d 項已選取</string>
+    <string name="pref_map_tiles_cache_size_hint">介於 %1$s 和 %2$s 之間的整數</string>
+    <string name="server_sends_old_data">伺服器所傳送的是此站的舊資訊，或系統時間不準確</string>
+    <string name="pref_map_tiles_cache_max_size_title">如果超過限制則清除地圖快取</string>
+    <string name="pref_map_tiles_cache_max_size_summary">%1$s MB（目前快取大小：%2$s MB）</string>
+    <string name="pref_map_tiles_cache_trim_size_title">清除工作會將地圖快取降低至</string>
+    <string name="pref_map_tiles_cache_trim_size_summary">%1$s MB</string>
 </resources>
