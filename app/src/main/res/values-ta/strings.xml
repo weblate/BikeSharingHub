@@ -1,2 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="connection_error">இணைப்பு பிழை</string>
+    <string name="ssl_error">SSL சான்றிதழ் சாதனத்தால் நம்பப்படவில்லை</string>
+    <string name="json_error">தரவை மீட்டெடுப்பதில் பிழை</string>
+    <string name="action_settings">அமைப்புகள்</string>
+    <string name="action_refresh">புதுப்பிப்பு</string>
+    <string name="action_map">வரைபடம்</string>
+    <string name="action_directions">திசைகள்</string>
+    <string name="action_favorite">பிடித்தது</string>
+    <string name="action_my_location">எனது இருப்பிடம்</string>
+    <string name="action_search">தேடல்</string>
+    <string name="title_activity_stations_list">நிலையங்கள்</string>
+    <string name="title_activity_station">நிலையம்</string>
+    <string name="title_activity_networks_list">பிணையம் தேர்வு</string>
+    <string name="title_activity_map">வரைபடம்</string>
+    <string name="title_activity_settings">அமைப்புகள்</string>
+    <string name="welcome_dialog_message">நீங்கள் தொடங்குவதற்கு முன், பட்டியலில் ஒரு பைக் நெட்வொர்க்கைத் தேர்வு செய்யவும். \nநீங்கள் இணையத்துடன் இணைக்கப்பட்டுள்ளீர்களா என்பதையும் உறுதிப்படுத்தவும்.</string>
+    <string name="welcome_dialog_ok">சரி</string>
+    <string name="welcome_dialog_cancel">ரத்துசெய்</string>
+    <string name="welcome_dialog_title">வரவேற்கிறோம்</string>
+    <string name="location_not_found">இடம் கிடைக்கவில்லை</string>
+    <string name="location_not_granted">இருப்பிட அணுகல் மறுக்கப்பட்டது</string>
+    <string name="location_coarse_only">இசைவு இல்லாததால் கரடுமுரடான இடத்தைப் பயன்படுத்துதல்</string>
+    <string name="location_outdated">உங்கள் இருப்பிடம் %1$s நிமிடங்களுக்கும் மேலாக உள்ளது</string>
+    <string name="network_selected">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="bike_network_downloading">பைக் பிணையம் பதிவிறக்கப்படும் வரை காத்திருக்கவும்</string>
+    <string name="map_cache_cleaning_started">வரைபட தற்காலிக சேமிப்பை தூய்மை செய்வது நடந்து கொண்டிருக்கிறது, மேலும் சிறிது நேரம் ஆகலாம்</string>
+    <string name="map_cache_cleaning_done">வரைபட தற்காலிக சேமிப்பை தூய்மை செய்தல் முடிந்தது</string>
+    <string name="widget_title_favorite_stations">பிடித்த நிலையங்கள்</string>
+    <string name="widget_no_fav_stations">பிடித்த நிலையங்கள் இல்லை</string>
+    <string name="free_bikes">இலவச பைக்குகள்: </string>
+    <string name="free_ebikes">மின்சார பைக்குகள்: </string>
+    <string name="empty_slots">வெறுமை இடங்கள்: </string>
+    <string name="all_stations">அனைத்து நிலையங்களும்</string>
+    <string name="favorite_stations">பிடித்தவை</string>
+    <string name="nearby_stations">அருகில்</string>
+    <string name="no_stations">நிலையங்கள் இல்லை</string>
+    <string name="no_favorite_stations">பிடித்த நிலையங்கள் இல்லை</string>
+    <string name="no_nearby_stations">அருகில் நிலையங்கள் இல்லை</string>
+    <string name="loc_perm_forbidden">இருப்பிடத்திற்கான அணுகல் மறுக்கப்பட்டது. \nதொடக்கத்திற்கான மற்றொரு இயல்புநிலை தாவலைத் தேர்வு செய்யலாம். \nஇல்லையெனில் உங்கள் கணினி அமைப்புகளில் இசைவு வழங்கவும்.</string>
+    <string name="station_added_to_favorites">பிடித்தவைகளில் நிலையம் சேர்க்கப்பட்டது</string>
+    <string name="stations_removed_from_favorites">பிடித்தவற்றிலிருந்து நிலையம் அகற்றப்பட்டது</string>
+    <string name="no_nav_application">உங்களிடம் வழிசெலுத்தல் பயன்பாடு எதுவும் நிறுவப்படவில்லை</string>
+    <string name="is_bonus_station">போனச் நிலையம்</string>
+    <string name="cards_accepted">அட்டைகள் ஏற்றுக்கொள்ளப்பட்டன</string>
+    <string name="db_last_update">கடைசியாக புதுப்பித்தது: %1$s</string>
+    <string name="db_last_update_never">ஒருபோதும்</string>
+    <plurals name="updated_secondes_ago">
+        <item quantity="one">%d நொடி முன்பு</item>
+        <item quantity="other">%d வினாடிகளுக்கு முன்பு</item>
+    </plurals>
+    <string name="updated_just_now">இப்போது</string>
+    <plurals name="updated_minutes_ago">
+        <item quantity="one">%d நிமிடத்திற்கு முன்பு</item>
+        <item quantity="other">%d நிமிடங்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="updated_hours_ago">
+        <item quantity="one">%d மணிநேரத்திற்கு முன்பு</item>
+        <item quantity="other">%d மணிநேரங்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="updated_days_ago">
+        <item quantity="one">%d நாளுக்கு முன்பு</item>
+        <item quantity="other">%d நாட்களுக்கு முன்பு</item>
+    </plurals>
+    <string name="pref_header_general">பொது</string>
+    <string name="pref_title_bike_networks_list">பிணையம் தேர்வு</string>
+    <string name="pref_title_bike_networks_list_summary_none">எதுவுமில்லை</string>
+    <string name="pref_title_bike_networks_list_summary_multiple_selection">%d தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="pref_title_license">உரிமம்</string>
+    <string name="pref_title_about">பற்றி</string>
+    <string name="pref_title_source_code">மூலக் குறியீடு</string>
+    <string name="pref_title_fork">ஃபோர்க் ஆஃப்</string>
+    <string name="pref_title_citybikes_api">CityBikes பநிஇ</string>
+    <string name="pref_title_osmdroid_library">osmdroid நூலகம்</string>
+    <string name="pref_title_osmbonuspack_library">OSMBonusPack நூலகம்</string>
+    <string name="pref_title_openstreetmap">OpenStreetMap</string>
+    <string name="pref_title_version">பதிப்பு</string>
+    <string name="pref_map_layer_title">வரைபட அடுக்கு</string>
+    <string name="pref_title_strip_station_id">உரி ச்டேசன் அடையாளம்</string>
+    <string name="pref_title_strip_station_id_summary">நிலையத்தின் பெயரிலிருந்து ஐடியை அகற்று (சில நெட்வொர்க்குகளுக்கு மட்டுமே பயனுள்ளதாக இருக்கும்)</string>
+    <string name="pref_title_advanced">மேம்பட்ட</string>
+    <string name="pref_title_api_url">பநிஇ முகவரி</string>
+    <string name="pref_title_default_tab">இயல்புநிலை தாவல்</string>
+    <string name="pref_map_tiles_cache_max_size_title">மேப் கேச் அதிகமாக இருந்தால் அதை தூய்மை செய்யவும்</string>
+    <string name="pref_map_tiles_cache_max_size_summary">%1$s MB (தற்போதைய கேச் அளவு: %2$s MB)</string>
+    <string name="pref_map_tiles_cache_trim_size_title">தூய்மை செய்வது வரைபட தற்காலிக சேமிப்பை கீழே கொண்டுவருகிறது</string>
+    <string name="pref_map_tiles_cache_trim_size_summary">%1$s மெ.பை</string>
+    <string name="pref_map_tiles_cache_size_hint">%1$s மற்றும் %2$s இடையே முழு எண்</string>
+    <string name="server_sends_old_data">சேவையகம் இந்த நிலையத்திற்கான பழைய தரவை அனுப்புகிறது அல்லது கணினி நேரம் துல்லியமாக இல்லை</string>
+</resources>
